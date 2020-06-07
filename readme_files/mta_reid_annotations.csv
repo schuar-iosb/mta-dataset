@@ -1,0 +1,4 @@
+annotation name,description
+framegta,ingame frame number aka frame_no_gta
+camid,camera id aka cam_id
+pid,person id aka person_id

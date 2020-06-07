@@ -1,0 +1,7 @@
+column name,Description
+frame_no_cam,frame number per camera starting from 0
+person_id,person id
+x_top_left_BB,x top left bounding box coordinate
+y_top_left_BB,y top left bounding box coordinate
+x_bottom_right_BB,x bottom right bounding box coordinate
+y_bottom_right_BB,y bottom right bounding box coordinate

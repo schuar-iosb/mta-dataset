@@ -1,0 +1,35 @@
+column name,Description
+frame_no_gta,Ingame native frame number
+frame_no_cam,frame number per camera starting from 0
+person_id,person id
+appearance_id,appearance id linked to id in MTMCT.zip see MTA-Mod
+joint_type,joint type
+x_2D_joint,x 2D joint position
+y_2D_joint,y 2D joint position
+x_3D_joint,x 3D joint position
+y_3D_joint,y 3D joint position
+z_3D_joint,z 3D joint position
+joint_occluded,1 if the joint is occluded; 0 otherwise
+joint_self_occluded,1 if the joint is occluded by its owner; 0 otherwise
+x_3D_cam,x 3D camera position
+y_3D_cam,y 3D camera position
+z_3D_cam,z 3D camera position
+x_rot_cam,x camera rotation
+y_rot_cam,y camera rotation
+z_rot_cam,z camera rotation
+fov,camera field of view
+x_3D_person,x 3D person position
+y_3D_person,y 3D person position
+z_3D_person,z 3D person position
+x_2D_person,x 2D person position
+y_2D_person,y 2D person position
+ped_type,pedestrian type
+wears_glasses,1 if the person is wearing glasses; 0 otherwise
+yaw_person,person yaw
+hours_gta,Ingame time hours
+minutes_gta,Ingame time minutes
+seconds_gta,Ingame time seconds
+x_top_left_BB,x top left bounding box coordinate
+y_top_left_BB,y top left bounding box coordinate
+x_bottom_right_BB,x bottom right bounding box coordinate
+y_bottom_right_BB,y bottom right bounding box coordinate
