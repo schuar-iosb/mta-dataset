@@ -216,11 +216,17 @@ This means it is possible to get more annotations for re-id images like e.g. the
 The dataset was recorded and created by the MTA-Mod (https://github.com/koehlp/MTA-Mod).
 
 ## Scripts
+To use the following scripts it is necessary to install the python requirements:
 
+```python
+pip install -r requirements.txt  
+```
 
 **mta_to_coco.py**  
 
 Convert the mta video dataset to the coco format.  
+Note that just the bounding box annotations are available. 
+ 
 Example:  
 ```
 python mta_to_coco.py \
