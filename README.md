@@ -215,6 +215,21 @@ This means it is possible to get more annotations for re-id images like e.g. the
 
 The dataset was recorded and created by the MTA-Mod (https://github.com/koehlp/MTA-Mod).
 
+## Scripts
+
+
+**mta_to_coco.py**  
+
+Convert the mta video dataset to the coco format.  
+Example:  
+```
+python mta_to_coco.py \
+    --mta_dataset_folder /media/philipp/philippkoehl_ssd/MTA_ext_short/test \
+    --coco_mta_output_folder /media/philipp/philippkoehl_ssd/coco_MTA_ext_short/test \
+    --sampling_rate 41 \
+    --camera_ids 0,1,2,3,4,5
+```
+
 
 
 ## Citation
