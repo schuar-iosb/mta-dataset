@@ -1,6 +1,6 @@
 # The MTA Dataset
 
-![](readme_files/MTA_dataset_repo_graphic.png)
+![](readme_files/MTA_dataset_repo_graphic.jpg)
 
 
 The **MTA** (Multi Camera Track Auto) is a large multi target multi camera tracking dataset. It
