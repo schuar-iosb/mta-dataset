@@ -34,7 +34,7 @@ We will send you the **MTA-Download-URLs**  as fast as possible
 **MTA_videos.zip**  
 - Contains 12 videos (train and test videos for 6 cameras)    
 and **multi camera tracking annotations** (frame number, person id, bounding box).  
-- 41GB zipped and 42GB unzipped.  
+- 41GB zipped and 42GB unzipped  
 - Overall video length: 102min
 
 **MTA_videos_coords.zip**  
@@ -48,7 +48,7 @@ and **multi camera tracking annotations** (frame number, person id, bounding box
 
 **MTA_ext_short_coords.zip**  
 - Full annotations of the extracted short part
-- 1.1GB zipped and 8.9GB unzipped.  
+- 1.1GB zipped and 8.9GB unzipped  
 
 #### Person re-identification
 
@@ -224,18 +224,32 @@ pip install -r requirements.txt
 
 **mta_to_coco.py**  
 
-Convert the mta video dataset to the coco format.  
+Converts the mta videos and annotations into the coco annotation format and images.  
 Note that just the bounding box annotations are available. 
  
 Example:  
-```
+```shell script
 python mta_to_coco.py \
     --mta_dataset_folder /media/philipp/philippkoehl_ssd/MTA_ext_short/test \
     --coco_mta_output_folder /media/philipp/philippkoehl_ssd/coco_MTA_ext_short/test \
     --sampling_rate 41 \
     --camera_ids 0,1,2,3,4,5
 ```
+**draw_full_annotations.py**
 
+Draws joint annotations, bounding box annotations and person ids into the frames of 
+the MTA data and outputs a video.
+
+Example:  
+
+```shell script
+python draw_full_annotations.py \  
+    --coords_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short_coords/test" \
+    --video_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short/test" \
+    --output_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short_annotation_videos" \
+    --camera_ids "0,1,2,3,4,5"
+
+```
 
 
 ## Citation
