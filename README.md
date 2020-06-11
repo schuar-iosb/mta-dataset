@@ -5,7 +5,15 @@
 
 The **MTA** (Multi Camera Track Auto) is a large multi target multi camera tracking dataset. It
 contains over 2,800 person identities, 6 cameras and a video 
-length of over 100 minutes per camera.
+length of over 100 minutes per camera. It contains a day and a night period.
+
+Take a look at a short timelapse video:
+
+https://www.youtube.com/watch?v=tZ5UwpkcfmE
+
+Or a short extracted part with annotations: 
+
+https://www.youtube.com/watch?v=e6WNgCQHcCc
 
 
 
