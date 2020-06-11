@@ -243,7 +243,7 @@ the MTA data and outputs a video.
 Example:  
 
 ```shell script
-python draw_full_annotations.py \  
+python draw_full_annotations.py \
     --coords_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short_coords/test" \
     --video_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short/test" \
     --output_folder "/media/philipp/philippkoehl_ssd/MTA_ext_short_annotation_videos" \
