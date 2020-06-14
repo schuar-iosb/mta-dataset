@@ -16,6 +16,12 @@ Or a short extracted part with annotations:
 https://www.youtube.com/watch?v=e6WNgCQHcCc
 
 
+**Associated repositories**
+
+The dataset was recorded and created by the MTA-Mod (https://github.com/koehlp/MTA-Mod).
+If you want to perform multi camera tracking on the dataset, you could use the WDA-Tracker
+ (https://github.com/koehlp/wda_tracker).
+
 
 ## Getting the dataset
 
@@ -217,11 +223,6 @@ This means it is possible to get more annotations for re-id images like e.g. the
  by linking via `frame_no_gta` and `person_id`.
 
 
-
-
-## Dataset creation
-
-The dataset was recorded and created by the MTA-Mod (https://github.com/koehlp/MTA-Mod).
 
 ## Scripts
 To use the following scripts it is necessary to install the python requirements:
