@@ -23,6 +23,10 @@ If you want to perform multi camera tracking on the dataset, you could use the W
  (https://github.com/koehlp/wda_tracker).
 
 
+**Release Notes**
+
+- Major changes will be listed here.
+
 ## Getting the dataset
 
 To obtain the Dataset, you first need the **MTA-Download-URLs**, 
