@@ -268,9 +268,14 @@ python draw_full_annotations.py \
 ## Citation
 
 If you use it, please cite our work.
-The affiliated paper will be published soon at the CVPR 2020 VUHCS Workshop (https://vuhcs.github.io/)
+The affiliated paper was published at the CVPR 2020 VUHCS Workshop (https://vuhcs.github.io/)
 
 ```latex
-The MTA Dataset for Multi Target Multi Camera Pedestrian Tracking by Weighted Distance Aggregation. 
-Philipp Köhl (Fraunhofer IOSB); Andreas Specker (Fraunhofer IOSB); Arne Schumann (Fraunhofer IOSB)* (Oral)
+@InProceedings{Kohl_2020_CVPR_Workshops,
+    author = {Kohl, Philipp and Specker, Andreas and Schumann, Arne and Beyerer, Jurgen},
+    title = {The MTA Dataset for Multi-Target Multi-Camera Pedestrian Tracking by Weighted Distance Aggregation},
+    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month = {June},
+    year = {2020}
+}
 ```
