@@ -1,5 +1,5 @@
 addict==2.2.1
-certifi==2020.4.5.1
+certifi==2022.12.7
 numpy==1.18.5
 opencv-python==4.2.0.34
 pandas==1.0.4
